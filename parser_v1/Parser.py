@@ -78,7 +78,7 @@ class Parser_v2():
     #Томская городская клиническая больница
     def pars_okb_Tomsk_txt(self):
         print("Томская городская клиническая больница")
-        f1 = open("data_google_okb_tomsk_ru.txt", 'w', encoding="utf-8")
+        f1 = open("./data/data_google_okb_tomsk_ru.txt", 'w', encoding="utf-8")
         all_info=self.yandex_parse(0)+self.google_parse(0)
         f1.write(all_info)
         f1.close()
@@ -86,7 +86,7 @@ class Parser_v2():
     #Томская кличическия психиатрическая больница
     def pars_okpb_Tomsk_txt(self):
         print("омская кличическия психиатрическая больница")
-        f1 = open("data_okpb_Tomsk.txt", 'w', encoding="utf-8")
+        f1 = open("./data/data_okpb_Tomsk.txt", 'w', encoding="utf-8")
         all_info=self.yandex_parse(1)+self.google_parse(1)
         f1.write(all_info)
         f1.close()
@@ -94,7 +94,7 @@ class Parser_v2():
     #Больница скорой медицинской помощи
     def pars_Ambulance_Tomsk_txt(self):
         print("Больница скорой медицинской помощи")
-        f1 = open("data_Ambulance_Tomsk.txt", 'w', encoding="utf-8")
+        f1 = open("./data/data_Ambulance_Tomsk.txt", 'w', encoding="utf-8")
         all_info = self.yandex_parse(2) + self.google_parse(2)
         f1.write(all_info)
         f1.close()
@@ -102,7 +102,7 @@ class Parser_v2():
     #ОГАУЗ Больница № 2
     def pars_OGAYZ_Hospital_2_txt(self):
         print("ОГАУЗ Больница № 2")
-        f1 = open("data_OGAYZ_Hospital_2.txt", 'w', encoding="utf-8")
+        f1 = open("./data/data_OGAYZ_Hospital_2.txt", 'w', encoding="utf-8")
         all_info = self.yandex_parse(3) + self.google_parse(3)
         f1.write(all_info)
         f1.close()
@@ -110,7 +110,7 @@ class Parser_v2():
     #Городская клинческая больница №3 им. Б.И. Альперовича
     def pars_klinikal_Hospital_3_txt(self):
         print("Городская клинческая больница №3 им. Б.И. Альперовича")
-        f1 = open("data_klinikal_Hospital_3.txt", 'w', encoding="utf-8")
+        f1 = open("./data/data_klinikal_Hospital_3.txt", 'w', encoding="utf-8")
         all_info = self.yandex_parse(4) + self.google_parse(4)
         f1.write(all_info)
         f1.close()
@@ -194,7 +194,7 @@ class Parser_v2():
         print(len(mas_info))
 
     def file_clear(self):
-        f = open("data_google_okb_tomsk_ru.txt", 'w+')
+        f = open("./data/data_google_okb_tomsk_ru.txt", 'w+')
         f.seek(0)
         f.close()
 
