@@ -1,0 +1,5 @@
+.footer{
+    height: 200px;
+    background-image: linear-gradient(to bottom, rgb(101, 115, 255), rgb(101, 123, 244), rgb(102, 132, 233), rgb(102, 140, 222), rgb(103, 148, 211), rgb(103, 157, 200), rgb(104, 165, 189), rgb(104, 174, 178), rgb(105, 182, 167), rgb(105, 190, 156), rgb(106, 199, 145), rgb(106, 207, 134));
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.3);
+}

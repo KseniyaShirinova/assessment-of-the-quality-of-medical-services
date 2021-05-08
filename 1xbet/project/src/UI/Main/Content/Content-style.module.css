@@ -1,0 +1,21 @@
+.content_container{
+    background: white;
+    position: relative;
+    width: 70%;
+    bottom: 60px;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+}
+.hospital{
+    text-align: center;
+    background: cornflowerblue;
+}
+.group_title{
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+img{
+    margin-bottom: 40px;
+}

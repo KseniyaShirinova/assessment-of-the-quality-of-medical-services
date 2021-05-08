@@ -1,0 +1,18 @@
+.title{
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    position: relative;
+    top: 200px;
+}
+.header_container{
+    background: url("./img/томск.cCHFY.jpeg");
+    min-height: 561px;
+}
+.header_container_mask{
+
+}
+.header_Toms_Ambulance_container{
+    background: url("../Content/img/hospital/amdulance_hospital.jpg");
+    min-height: 561px;
+}
